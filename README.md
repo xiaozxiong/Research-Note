@@ -75,5 +75,5 @@
 - [RTIndeX: Exploiting Hardware-Accelerated GPU Raytracing for Database Indexing (VLDB 2023)](https://dl.acm.org/doi/10.14778/3625054.3625063), [code](https://gitlab.rlp.net/juhenneb/rtindex.git)
 - [RTScan: Efficient Scan with Ray Tracing Cores (VLDB 2024)](https://www.vldb.org/pvldb/vol17/p1460-lv.pdf), [code](https://github.com/AntaresAlice/RTScan.git)
 - [JUNO: Optimizing High-Dimensional Approximate Nearest Neighbour Search with Sparsity-Aware Algorithm and Ray-Tracing Core Mapping](https://arxiv.org/pdf/2312.01712)
-- Arkade: k-Nearest Neighbor Search With Non-Euclidean Distances using GPU Ray Tracing (ICS 2024)
+- [Arkade: k-Nearest Neighbor Search With Non-Euclidean Distances using GPU Ray Tracing (ICS 2024)](https://arxiv.org/pdf/2311.09168)
 - RayJoin: Fast and Precise Spatial Join (ICS 2024)

@@ -72,6 +72,7 @@
 
 - [RTNN: accelerating neighbor search using hardware ray tracing (PPoPP 2022)](https://dl.acm.org/doi/10.1145/3503221.3508409), [code](https://github.com/horizon-research/rtnn.git)
 - [RT-kNNS Unbound: Using RT Cores to Accelerate Unrestricted Neighbor Search (ICS 2023)](https://dl.acm.org/doi/abs/10.1145/3577193.3593738)
+- [RT-DBSCAN: Accelerating DBSCAN using Ray Tracing Hardware (IPDPS 2023)](https://ieeexplore.ieee.org/abstract/document/10177455), [code](https://github.com/vani-nag/OWLRayTracing.git)
 - [RTIndeX: Exploiting Hardware-Accelerated GPU Raytracing for Database Indexing (VLDB 2023)](https://dl.acm.org/doi/10.14778/3625054.3625063), [code](https://gitlab.rlp.net/juhenneb/rtindex.git)
 - [RTScan: Efficient Scan with Ray Tracing Cores (VLDB 2024)](https://www.vldb.org/pvldb/vol17/p1460-lv.pdf), [code](https://github.com/AntaresAlice/RTScan.git)
 - [JUNO: Optimizing High-Dimensional Approximate Nearest Neighbour Search with Sparsity-Aware Algorithm and Ray-Tracing Core Mapping](https://arxiv.org/pdf/2312.01712)

@@ -49,6 +49,29 @@
 
 ## Dataset
 
+## Data Format
+
+### fbin & ibin
+
+All embedding data (base, query, learning) is stored in `.fbin` format. And all ground truth is strored in `.ibin` format.
+
+```python
+# .fbin format:
+[num_vectors (uint32), vector_dim (uint32), vector_array (float32)]
+# .ibin format:
+[num_vectors (uint32), vector_dim (uint32), vector_array (int32)]
+```
+
+### fvecs & ivecs
+
+The vector files are stored in `.fvecs` or `.bvecs` format, and the ground truth file is `.ivecs` format. The only difference between `.bvecs`, `.fvecs` and `.ivecs` files is the base type for the vector components, which is **unsigned char**, **float** or **int**, respectively. 
+
+```python
+# Each vector takes (4+d*4) bytes for .fvecs and .ivecs formats, d is dimension.
+# .fvecs format and .ivecs format:
+[(dim, vector), (dim, vector), ...]
+```
+
 ### Billion-scale
 
 |                           Dataset                            | Dimensions | Base Size | Query Size |  k   |

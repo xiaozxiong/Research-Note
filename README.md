@@ -74,13 +74,13 @@ The vector files are stored in `.fvecs` or `.bvecs` format, and the ground truth
 
 ### Billion-scale
 
-|                           Dataset                            | Dimensions | Base Size | Query Size |  k   |
-| :----------------------------------------------------------: | :--------: | :-------: | :--------: | :--: |
-|           [SIFT1B](http://corpus-texmex.irisa.fr/)           |    128     |    1B     |    10K     | 100  |
-| [DEEP1B](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) |     96     |    1B     |    10K     | 100  |
-| [Text-to-Image-1B](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) |    200     |    1B     |    100K    |      |
-| [Facebook SimSearchNet++](https://big-ann-benchmarks.com/neurips21.html) |    256     |    1B     |    100K    |      |
-| [Microsoft SPACEV-1B](https://github.com/microsoft/SPTAG/tree/main/datasets/SPACEV1B) |    100     |    1B     |    29K     | 100  |
+|                           Dataset                            | Dimensions | Base Size | Query Size |  k   |   Distance    |
+| :----------------------------------------------------------: | :--------: | :-------: | :--------: | :--: | :-----------: |
+|           [SIFT1B](http://corpus-texmex.irisa.fr/)           |    128     |    1B     |    10K     | 100  |      L2       |
+| [DEEP1B](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) |     96     |    1B     |    10K     | 100  |      L2       |
+| [Text-to-Image-1B](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) |    200     |    1B     |    100K    |      | inner-product |
+| [Microsoft Turing-ANNS](https://learning2hash.github.io/publications/microsoftturinganns1B/) |    100     |    1B     |    100K    |      |      L2       |
+| [Microsoft SPACEV-1B](https://github.com/microsoft/SPTAG/tree/main/datasets/SPACEV1B) |    100     |    1B     |    29K     | 100  |      L2       |
 
 ### Million-scale
 

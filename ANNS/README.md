@@ -1,6 +1,6 @@
 # Approximate Nearest Neighbor Search
 
-
+## Paper List
 
 ### Graph Index
 
@@ -81,6 +81,8 @@ The vector files are stored in `.fvecs` or `.bvecs` format, and the ground truth
 | [Text-to-Image-1B](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) | float32  |    200     |    1B     |    100K    |       | inner-product |
 | [Microsoft Turing-ANNS](https://learning2hash.github.io/publications/microsoftturinganns1B/) | float32  |    100     |    1B     |    100K    |       |      L2       |
 | [Microsoft SPACEV-1B](https://github.com/microsoft/SPTAG/tree/main/datasets/SPACEV1B) |   int8   |    100     |    1B     |   29.3K    |  100  |      L2       |
+
+The ground truth for deep1M, deep10M, and deep100M datasets can be download from [here](https://github.com/matsui528/deep1b_gt.git).
 
 ### Million-scale
 

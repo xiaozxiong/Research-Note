@@ -15,13 +15,24 @@
 - [A Comprehensive Survey and Experimental Comparison of Graph-Based Approximate Nearest Neighbor Search (VLDB 2021)](https://www.vldb.org/pvldb/vol14/p1964-wang.pdf), [code](https://github.com/Lsyhprum/WEAVESS.git)
 - [Graph Reordering for Cache-Efficient Near Neighbor Search (NIPS 2022)](https://papers.nips.cc/paper_files/paper/2022/hash/fb44a668c2d4bc984e9d6ca261262cbb-Abstract-Conference.html)
 - [GraSP: Optimizing Graph-based Nearest Neighbor Search with Subgraph Sampling and Pruning (WSDM 2022)](https://dl.acm.org/doi/pdf/10.1145/3488560.3498425)
+- ELPIS: Graph-Based Similarity Search for Scalable Data Science (VLDB 2023)
+- Relative NN-Descent: A Fast Index Construction for Graph-Based Approximate Nearest Neighbor Search (MM 2023), [code](https://github.com/mti-lab/rnn-descent.git)
 - [iQAN: Fast and Accurate Vector Search with Efficient Intra-Query Parallelism on Multi-Core Architectures (PPoPP 2023)](https://dl.acm.org/doi/pdf/10.1145/3572848.3577527)
-- [ParANN: Scalable and Deterministic Parallel Graph-Based Approximate Nearest Neighbor Search Algorithms (PPoPP 2024)](https://dl.acm.org/doi/pdf/10.1145/3627535.3638475), [code](https://github.com/cmuparlay/ParlayANN.git)
+- [ParlayANN: Scalable and Deterministic Parallel Graph-Based Approximate Nearest Neighbor Search Algorithms (PPoPP 2024)](https://dl.acm.org/doi/pdf/10.1145/3627535.3638475), [code](https://github.com/cmuparlay/ParlayANN.git)
 
 ### Hybrid Method
 
 - Routing-Guided Learned Product Quantization for Graph-Based Approximate Nearest Neighbor Search (ICDE 2024), [code](https://github.com/Lsyhprum/BREWESS.git)
 - Efficient Reverse k Approximate Nearest Neighbor Search over High-Dimensional Vectors (ICDE 2024)
+
+### Optimization
+
+- High-Dimensional Approximate Nearest Neighbor Search: with Reliable and Efficient Distance Comparison Operations (SIGMOD 2023), [code](https://github.com/gaoj0017/ADSampling.git)
+- FINGER: Fast Inference for Graph-based Approximate Nearest Neighbor Search (WWW 2023)
+
+### Analysis
+
+- Worst-case Performance of Popular Approximate Nearest Neighbor Search Implementations: Guarantees and Limitations (NeurIPS 2023)
 
 ### Billion-scale ANNS
 

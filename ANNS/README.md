@@ -4,8 +4,13 @@
 
 ### Graph Index
 
+- Monotonic Search Networks For Computer Vision Databases
+
+- [Approximate Nearest Neighbor Queries in Fixed Dimensions](https://www.cs.umd.edu/~mount/Papers/soda93-ann.pdf)
+
 - [Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs](https://arxiv.org/abs/1603.09320), [hnswlib](https://github.com/nmslib/hnswlib.git)
 - [Fast Approximate Nearest Neighbor Search With The Navigating Spreading-out Graph](https://arxiv.org/abs/1707.00143), [NSG](https://github.com/ZJULearning/nsg.git)
+- High Dimensional Similarity Search With Satellite System Graph: Efficiency, Scalability, and Unindexed Query Compatibility, [code](https://github.com/ZJULearning/SSG.git)
 - [Improving Approximate Nearest Neighbor Search through Learned Adaptive Early Termination (SIGMOD 2020)](https://dl.acm.org/doi/pdf/10.1145/3318464.3380600), [code](https://github.com/efficient/faiss-learned-termination.git)
 - [A Comprehensive Survey and Experimental Comparison of Graph-Based Approximate Nearest Neighbor Search (VLDB 2021)](https://www.vldb.org/pvldb/vol14/p1964-wang.pdf), [code](https://github.com/Lsyhprum/WEAVESS.git)
 - [Graph Reordering for Cache-Efficient Near Neighbor Search (NIPS 2022)](https://papers.nips.cc/paper_files/paper/2022/hash/fb44a668c2d4bc984e9d6ca261262cbb-Abstract-Conference.html)

@@ -20,7 +20,7 @@
 - [iQAN: Fast and Accurate Vector Search with Efficient Intra-Query Parallelism on Multi-Core Architectures (PPoPP 2023)](https://dl.acm.org/doi/pdf/10.1145/3572848.3577527)
 - [ParlayANN: Scalable and Deterministic Parallel Graph-Based Approximate Nearest Neighbor Search Algorithms (PPoPP 2024)](https://dl.acm.org/doi/pdf/10.1145/3627535.3638475), [code](https://github.com/cmuparlay/ParlayANN.git)
 
-### Hybrid Method
+### Hybrid Index
 
 - Routing-Guided Learned Product Quantization for Graph-Based Approximate Nearest Neighbor Search (ICDE 2024), [code](https://github.com/Lsyhprum/BREWESS.git)
 - Efficient Reverse k Approximate Nearest Neighbor Search over High-Dimensional Vectors (ICDE 2024)
@@ -38,6 +38,7 @@
 
 - Billion-scale similarity search with GPUs, [Faiss](https://github.com/facebookresearch/faiss.git)
 - DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node (NeurIPS 2019), [DiskANN](https://github.com/microsoft/DiskANN.git)
+- HM-ANN: Efficient Billion-Point Nearest Neighbor Search on Heterogeneous Memory (NeurIPS 2020)
 - [SPANN: Highly-efficient Billion-scale Approximate Nearest Neighbor Search (NeurIPS 2021)](https://proceedings.neurips.cc/paper/2021/file/299dc35e747eb77177d9cea10a802da2-Paper.pdf), [code](https://github.com/microsoft/SPTAG.git)
 - [FreshDiskANN: A Fast and Accurate Graph-Based ANN Index for Streaming Similarity Search](https://arxiv.org/pdf/2105.09613.pdf)
 - [Starling: An I/O-Efficient Disk-Resident Graph Index Framework for High-Dimensional Vector Similarity Search on Data Segment (SIGMOD 2024)](https://dl.acm.org/doi/pdf/10.1145/3639269), [code](https://github.com/zilliztech/starling.git)
@@ -49,7 +50,9 @@
 - CAGRA: Highly Parallel Graph Construction and Approximate Nearest Neighbor Search for GPUs (ICDE 2024), [code](https://github.com/rapidsai/raft.git)
 - GGNN: Graph-based GPU Nearest Neighbor Search, [code](https://github.com/cgtuebingen/ggnn.git)
 
-### Filtered Search
+### ANNS with Attribute Constraint
+
+- AnalyticDB-V: a hybrid analytical engine towards query fusion for structured and unstructured data (VLDB 2019)
 
 - [Constrained Approximate Similarity Search on Proximity Graph](https://arxiv.org/abs/2210.14958)
 - [Navigable Proximity Graph-Driven Native Hybrid Queries with Structured and Unstructured Constraints](https://arxiv.org/abs/2203.13601)

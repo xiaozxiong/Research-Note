@@ -5,15 +5,13 @@
 ### Graph Index
 
 - Monotonic Search Networks For Computer Vision Databases
-
 - [Approximate Nearest Neighbor Queries in Fixed Dimensions](https://www.cs.umd.edu/~mount/Papers/soda93-ann.pdf)
-
 - [Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs](https://arxiv.org/abs/1603.09320), [hnswlib](https://github.com/nmslib/hnswlib.git)
 - [Fast Approximate Nearest Neighbor Search With The Navigating Spreading-out Graph](https://arxiv.org/abs/1707.00143), [NSG](https://github.com/ZJULearning/nsg.git)
-- High Dimensional Similarity Search With Satellite System Graph: Efficiency, Scalability, and Unindexed Query Compatibility, [code](https://github.com/ZJULearning/SSG.git)
+- [High Dimensional Similarity Search With Satellite System Graph: Efficiency, Scalability, and Unindexed Query Compatibility (TPAMI)](https://ieeexplore.ieee.org/document/9383170), [code](https://github.com/ZJULearning/SSG.git)
 - [Improving Approximate Nearest Neighbor Search through Learned Adaptive Early Termination (SIGMOD 2020)](https://dl.acm.org/doi/pdf/10.1145/3318464.3380600), [code](https://github.com/efficient/faiss-learned-termination.git)
 - [A Comprehensive Survey and Experimental Comparison of Graph-Based Approximate Nearest Neighbor Search (VLDB 2021)](https://www.vldb.org/pvldb/vol14/p1964-wang.pdf), [code](https://github.com/Lsyhprum/WEAVESS.git)
-- [Graph Reordering for Cache-Efficient Near Neighbor Search (NIPS 2022)](https://papers.nips.cc/paper_files/paper/2022/hash/fb44a668c2d4bc984e9d6ca261262cbb-Abstract-Conference.html)
+- [Graph Reordering for Cache-Efficient Near Neighbor Search (NeurIPS 2022)](https://papers.nips.cc/paper_files/paper/2022/hash/fb44a668c2d4bc984e9d6ca261262cbb-Abstract-Conference.html)
 - [GraSP: Optimizing Graph-based Nearest Neighbor Search with Subgraph Sampling and Pruning (WSDM 2022)](https://dl.acm.org/doi/pdf/10.1145/3488560.3498425)
 - ELPIS: Graph-Based Similarity Search for Scalable Data Science (VLDB 2023)
 - Relative NN-Descent: A Fast Index Construction for Graph-Based Approximate Nearest Neighbor Search (MM 2023), [code](https://github.com/mti-lab/rnn-descent.git)
@@ -31,6 +29,8 @@
 - FINGER: Fast Inference for Graph-based Approximate Nearest Neighbor Search (WWW 2023)
 
 ### Analysis
+
+- Approximate Nearest Neighbor Search on High Dimensional Data — Experiments, Analyses, and Improvement (TKDE), [code](https://github.com/DBAIWangGroup/nns_benchmark.git)
 
 - Worst-case Performance of Popular Approximate Nearest Neighbor Search Implementations: Guarantees and Limitations (NeurIPS 2023)
 
@@ -62,7 +62,7 @@
 - [VBase: Unifying Online Vector Similarity Search and Relational Queries via Relaxed Monotonicity (OSDI 2023)](https://www.usenix.org/system/files/osdi23-zhang-qianxi_1.pdf), [code](https://github.com/microsoft/MSVBASE.git)
 - [ARKGraph: All-Range Approximate K-Nearest-Neighbor Graph (VLDB 2023)](https://dl.acm.org/doi/pdf/10.14778/3603581.3603601), [code](https://github.com/rutgers-db/ARKGraph.git)
 - [Filtered−DiskANN: Graph Algorithms for Approximate Nearest Neighbor Search with Filters (WWW 2023)](https://harsha-simhadri.org/pubs/Filtered-DiskANN23.pdf)
-- [An Efficient and Robust Framework for Approximate Nearest Neighbor Search with Attribute Constraint (NIPS 2023)](https://papers.nips.cc/paper_files/paper/2023/hash/32e41d6b0a51a63a9a90697da19d235d-Abstract-Conference.html)
+- [An Efficient and Robust Framework for Approximate Nearest Neighbor Search with Attribute Constraint (NeurIPS 2023)](https://papers.nips.cc/paper_files/paper/2023/hash/32e41d6b0a51a63a9a90697da19d235d-Abstract-Conference.html)
 - [SeRF: Segment Graph for Range-Filtering Approximate Nearest Neighbor Search (SIGMOD 2024)](https://dl.acm.org/doi/pdf/10.1145/3639324), [code](https://github.com/rutgers-db/SeRF.git)
 - [Approximate Nearest Neighbor Search with Window Filters](https://arxiv.org/abs/2402.00943)
 

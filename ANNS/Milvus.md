@@ -70,7 +70,7 @@ An entity is associated with a single vector and a single attribute. Additionall
 
 ###  Multi-vector Queries
 
-Each entity contains $\mu$ vectors $\text{v}_0, \text{v}_1, \cdots, \text{v}_{\mu-1}$, and the multi-vector query find the top-$k$ entities according to the aggregated scoring function $g$ over the similarity function $f$ of each individual vector $\text{v}_i$.
+Each entity contains $\mu$ vectors $\mathrm{v}_0, \mathrm{v}_1, \cdots, \mathrm{v}_{\mu-1}$, and the multi-vector query find the top-$k$ entities according to the aggregated scoring function $g$ over the similarity function $f$ of each individual vector $\text{v}_i$.
 
 - **Naive solution.** This solution issues an individual top-$k$ query for each vector to produce a set of candidates which are further computed to obtain the final top-$k$ results. It leads to **extremely low recall**.
 - **Vector fusion.** This approach applies the aggregation function $g$ to the $\mu$ vectors of query, producing an aggregated query vector. It requires a **decomposable similarity function** such as inner product.

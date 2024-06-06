@@ -2,13 +2,13 @@
 
 ## System Design
 
-![](./milvus.png)
+![](./Milvus.png)
 
 ### Entry
 
 Each entity in Milvus is described as one or more **vectors** and optionally some numerical **attributes** (non-vector data).
 
-### Three primitive query types
+### Query Types
 
 - Vector query
 - Attribute filtering

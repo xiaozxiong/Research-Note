@@ -47,6 +47,7 @@
 
 - SONG: Approximate Nearest Neighbor Search on GPU (ICDE 2020), [code](https://github.com/sunbelbd/song.git)
 - GPU-accelerated Proximity Graph Approximate Nearest Neighbor Search and Construction (ICDE 2022), [code](https://github.com/yuyuanhang/GANNS.git)
+- Efficient Exact K-Nearest Neighbor Graph Construction for Billion-Scale Datasets using GPUs with Tensor Cores (ICS 2022)
 - CAGRA: Highly Parallel Graph Construction and Approximate Nearest Neighbor Search for GPUs (ICDE 2024), [code](https://github.com/rapidsai/raft.git)
 - GGNN: Graph-based GPU Nearest Neighbor Search, [code](https://github.com/cgtuebingen/ggnn.git)
 

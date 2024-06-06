@@ -14,3 +14,12 @@
 - A Dynamic Hash Table for the GPU (IPDPS), [code](https://github.com/owensgroup/SlabHash.git)
 - DyCuckoo: Dynamic Hash Tables on GPUs (ICDE 2021), [code](https://github.com/zhuqiweigit/DyCuckoo.git)
 
+## Tensor Core
+
+- Accelerating reduction and scan using tensor core units (ICS 2019), [code](https://github.com/c3sr/tcu_scope.git)
+- Tacker: Tensor-CUDA Core Kernel Fusion for Improving the GPU Utilization while Ensuring QoS (HPCA 2024), [code](https://github.com/sjtu-epcc/Tacker.git)
+
+### Stencil
+
+- [Toward accelerated stencil computation by adapting tensor core unit on GPU (ICS 2022)](https://dl.acm.org/doi/pdf/10.1145/3524059.3532392)
+- [ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores (PPoPP 2024)](https://dl.acm.org/doi/pdf/10.1145/3627535.3638476), [code](https://github.com/microsoft/ConvStencil.git)

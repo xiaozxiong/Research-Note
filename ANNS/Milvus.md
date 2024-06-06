@@ -57,7 +57,7 @@ Milvus develops an new index called SQ8H to address these above limitations.
 
 ### Attribute Filtering
 
-An entity is associated with a single vector and a single attribute. Additionally, a query involves two conditions $\mathcal{C}_A$  and $\mathcal{C}_V$ where  $\mathcal{C}_A$ specifies the attribute constraint and $\mathcal{C}_V$ denotes the normal query vector. $\mathcal{C}_A$ is represented in the form of $a\geq p_1\ \&\&\  a\leq p_2$​. 
+An entity is associated with a single vector and a single attribute. Additionally, a query involves two conditions $\mathcal{C}_A$  and $\mathcal{C}_V$ where  $\mathcal{C}_A$ specifies the attribute constraint and $\mathcal{C}_V$ denotes the normal query vector. $\mathcal{C}_A$ is represented in the form of $a\geq p_1$&& $  a\leq p_2$​. 
 
 ![](./Milvus_attribute_filtering.png)
 

@@ -27,6 +27,8 @@
 
 - High-Dimensional Approximate Nearest Neighbor Search: with Reliable and Efficient Distance Comparison Operations (SIGMOD 2023), [code](https://github.com/gaoj0017/ADSampling.git)
 - FINGER: Fast Inference for Graph-based Approximate Nearest Neighbor Search (WWW 2023)
+- AdANNS: A Framework for Adaptive Semantic Search (NeurIPS 2023)
+- Knowledge Distillation for High Dimensional Search Index (NeurIPS 2023)
 
 ### Analysis
 
@@ -41,6 +43,7 @@
 - HM-ANN: Efficient Billion-Point Nearest Neighbor Search on Heterogeneous Memory (NeurIPS 2020)
 - [SPANN: Highly-efficient Billion-scale Approximate Nearest Neighbor Search (NeurIPS 2021)](https://proceedings.neurips.cc/paper/2021/file/299dc35e747eb77177d9cea10a802da2-Paper.pdf), [code](https://github.com/microsoft/SPTAG.git)
 - [FreshDiskANN: A Fast and Accurate Graph-Based ANN Index for Streaming Similarity Search](https://arxiv.org/pdf/2105.09613.pdf)
+- [SPFresh: Incremental In-Place Update for Billion-Scale Vector Search (SOSP 2023)](https://dl.acm.org/doi/pdf/10.1145/3600006.3613166)
 - [Starling: An I/O-Efficient Disk-Resident Graph Index Framework for High-Dimensional Vector Similarity Search on Data Segment (SIGMOD 2024)](https://dl.acm.org/doi/pdf/10.1145/3639269), [code](https://github.com/zilliztech/starling.git)
 
 ### Graph Index on GPU
@@ -60,11 +63,13 @@
 - [CAPS: A Practical Partition Index for Filtered Similarity Search](https://arxiv.org/abs/2308.15014)
 - [Milvus: A Purpose-Built Vector Data Management System (SIGMOD 2021)](https://dl.acm.org/doi/10.1145/3448016.3457550)
 - [HQANN: Efficient and Robust Similarity Search for Hybrid Queries with Structured and Unstructured Constraints (CIKM 2022)](https://dl.acm.org/doi/pdf/10.1145/3511808.3557610)
+- PASE: PostgreSQL Ultra-High-Dimensional Approximate Nearest Neighbor Search Extension (SIGMOD 2020), [code](https://github.com/alipay/PASE.git)
 - [VBase: Unifying Online Vector Similarity Search and Relational Queries via Relaxed Monotonicity (OSDI 2023)](https://www.usenix.org/system/files/osdi23-zhang-qianxi_1.pdf), [code](https://github.com/microsoft/MSVBASE.git)
 - [ARKGraph: All-Range Approximate K-Nearest-Neighbor Graph (VLDB 2023)](https://dl.acm.org/doi/pdf/10.14778/3603581.3603601), [code](https://github.com/rutgers-db/ARKGraph.git)
 - [Filtered−DiskANN: Graph Algorithms for Approximate Nearest Neighbor Search with Filters (WWW 2023)](https://harsha-simhadri.org/pubs/Filtered-DiskANN23.pdf)
 - [An Efficient and Robust Framework for Approximate Nearest Neighbor Search with Attribute Constraint (NeurIPS 2023)](https://papers.nips.cc/paper_files/paper/2023/hash/32e41d6b0a51a63a9a90697da19d235d-Abstract-Conference.html)
 - [SeRF: Segment Graph for Range-Filtering Approximate Nearest Neighbor Search (SIGMOD 2024)](https://dl.acm.org/doi/pdf/10.1145/3639324), [code](https://github.com/rutgers-db/SeRF.git)
+- Efficient Data Access Paths for Mixed Vector-Relational Search
 - [Approximate Nearest Neighbor Search with Window Filters](https://arxiv.org/abs/2402.00943)
 
 ## Others

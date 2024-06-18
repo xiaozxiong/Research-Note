@@ -1,4 +1,4 @@
-# Parallell Computing on GPU
+# Parallell Computing
 
 ## Data Structure
 
@@ -23,3 +23,15 @@
 
 - [Toward accelerated stencil computation by adapting tensor core unit on GPU (ICS 2022)](https://dl.acm.org/doi/pdf/10.1145/3524059.3532392)
 - [ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores (PPoPP 2024)](https://dl.acm.org/doi/pdf/10.1145/3627535.3638476), [code](https://github.com/microsoft/ConvStencil.git)
+
+## Graph Analytics
+
+### SSD-Based
+
+- [MBFGraph: An SSD-based External Graph System for Evolving Graphs (SC 2023)](https://dl.acm.org/doi/pdf/10.1145/3581784.3607070), [code](https://github.com/liu225269/MBFGraph.git)
+
+## GPU Memory
+
+- A detailed GPU cache model based on reuse distance theory (HPCA 2014)
+- Locality-Driven Dynamic GPU Cache Bypassing (ICS 2015)
+- Fast, accurate, and scalable memory modeling of GPGPUs using reuse profiles (ICS 2020)

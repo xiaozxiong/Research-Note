@@ -8,3 +8,5 @@
 - [JUNO: Optimizing High-Dimensional Approximate Nearest Neighbour Search with Sparsity-Aware Algorithm and Ray-Tracing Core Mapping](https://arxiv.org/pdf/2312.01712)
 - [Arkade: k-Nearest Neighbor Search With Non-Euclidean Distances using GPU Ray Tracing (ICS 2024)](https://arxiv.org/pdf/2311.09168)
 - RayJoin: Fast and Precise Spatial Join (ICS 2024)
+
+- Intersection Prediction for Accelerated GPU Ray Tracing (MICRO 2021)

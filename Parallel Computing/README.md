@@ -30,6 +30,10 @@
 
 - [MBFGraph: An SSD-based External Graph System for Evolving Graphs (SC 2023)](https://dl.acm.org/doi/pdf/10.1145/3581784.3607070), [code](https://github.com/liu225269/MBFGraph.git)
 
+### Graph Algorithm
+
+- A High-Performance MST Implementation for GPUs (SC 2023), [code](https://github.com/burtscher/ECL-MST.git)
+
 ## GPU Memory
 
 - A detailed GPU cache model based on reuse distance theory (HPCA 2014)

@@ -7,7 +7,7 @@
 - [RTScan: Efficient Scan with Ray Tracing Cores (VLDB 2024)](https://www.vldb.org/pvldb/vol17/p1460-lv.pdf), [code](https://github.com/AntaresAlice/RTScan.git)
 - [JUNO: Optimizing High-Dimensional Approximate Nearest Neighbour Search with Sparsity-Aware Algorithm and Ray-Tracing Core Mapping (ASPLOS 2024)](https://dl.acm.org/doi/10.1145/3620665.3640360)
 - [Arkade: k-Nearest Neighbor Search With Non-Euclidean Distances using GPU Ray Tracing (ICS 2024)](https://arxiv.org/pdf/2311.09168)
-- RayJoin: Fast and Precise Spatial Join (ICS 2024)
+- [RayJoin: Fast and Precise Spatial Join (ICS 2024)](https://dl.acm.org/doi/10.1145/3650200.3656610), [code](https://github.com/pwrliang/RayJoin.git)
 
 - Intersection Prediction for Accelerated GPU Ray Tracing (MICRO 2021)
 

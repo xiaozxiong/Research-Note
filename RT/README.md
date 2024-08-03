@@ -10,3 +10,5 @@
 - RayJoin: Fast and Precise Spatial Join (ICS 2024)
 
 - Intersection Prediction for Accelerated GPU Ray Tracing (MICRO 2021)
+
+- [More Bang For Your Buck(et): Fast and Space-efficient Hardware-accelerated Coarse-granular Indexing on GPUs](https://arxiv.org/pdf/2406.03965)

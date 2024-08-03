@@ -34,6 +34,16 @@
 
 - A High-Performance MST Implementation for GPUs (SC 2023), [code](https://github.com/burtscher/ECL-MST.git)
 
+## Euclidean Minimum Spanning Tree (EMST)
+
+### Well-Separated Pair Decomposition (WSPD)
+
+- Fast Parallel Algorithms for Euclidean Minimum Spanning Tree and Hierarchical Spatial Clustering (SIGMOD 2021), [code](https://github.com/wangyiqiu/hdbscan.git)
+
+### Dual Tree
+
+- 
+
 ## GPU Memory
 
 - A detailed GPU cache model based on reuse distance theory (HPCA 2014)

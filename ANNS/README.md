@@ -15,6 +15,7 @@
 - [GraSP: Optimizing Graph-based Nearest Neighbor Search with Subgraph Sampling and Pruning (WSDM 2022)](https://dl.acm.org/doi/pdf/10.1145/3488560.3498425)
 - ELPIS: Graph-Based Similarity Search for Scalable Data Science (VLDB 2023)
 - Relative NN-Descent: A Fast Index Construction for Graph-Based Approximate Nearest Neighbor Search (MM 2023), [code](https://github.com/mti-lab/rnn-descent.git)
+- Towards Efficient Index Construction and Approximate Nearest Neighbor Search in High-Dimensional Spaces (VLDB 2023),
 - [iQAN: Fast and Accurate Vector Search with Efficient Intra-Query Parallelism on Multi-Core Architectures (PPoPP 2023)](https://dl.acm.org/doi/pdf/10.1145/3572848.3577527)
 - [ParlayANN: Scalable and Deterministic Parallel Graph-Based Approximate Nearest Neighbor Search Algorithms (PPoPP 2024)](https://dl.acm.org/doi/pdf/10.1145/3627535.3638475), [code](https://github.com/cmuparlay/ParlayANN.git)
 

@@ -14,6 +14,10 @@
 - A Dynamic Hash Table for the GPU (IPDPS), [code](https://github.com/owensgroup/SlabHash.git)
 - DyCuckoo: Dynamic Hash Tables on GPUs (ICDE 2021), [code](https://github.com/zhuqiweigit/DyCuckoo.git)
 
+### kd-Tree
+
+- Pkd-tree: Parallel 𝑘d-tree with Batch Updates (SIGMOD 2025)
+
 ## Tensor Core
 
 - Accelerating reduction and scan using tensor core units (ICS 2019), [code](https://github.com/c3sr/tcu_scope.git)

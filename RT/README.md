@@ -12,3 +12,7 @@
 - Intersection Prediction for Accelerated GPU Ray Tracing (MICRO 2021)
 
 - [More Bang For Your Buck(et): Fast and Space-efficient Hardware-accelerated Coarse-granular Indexing on GPUs](https://arxiv.org/pdf/2406.03965)
+
+- RTCUDB: Building Databases with RT Processors
+
+- RTOD: Efficient Outlier Detection With Ray Tracing Cores

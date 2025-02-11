@@ -18,11 +18,13 @@
 - Towards Efficient Index Construction and Approximate Nearest Neighbor Search in High-Dimensional Spaces (VLDB 2023),
 - [iQAN: Fast and Accurate Vector Search with Efficient Intra-Query Parallelism on Multi-Core Architectures (PPoPP 2023)](https://dl.acm.org/doi/pdf/10.1145/3572848.3577527)
 - [ParlayANN: Scalable and Deterministic Parallel Graph-Based Approximate Nearest Neighbor Search Algorithms (PPoPP 2024)](https://dl.acm.org/doi/pdf/10.1145/3627535.3638475), [code](https://github.com/cmuparlay/ParlayANN.git)
+- Graph-Based Vector Search: An Experimental Evaluation of the State-of-the-Art (SIGMOD 2025)
 
 ### Hybrid Index
 
 - Routing-Guided Learned Product Quantization for Graph-Based Approximate Nearest Neighbor Search (ICDE 2024), [code](https://github.com/Lsyhprum/BREWESS.git)
-- Efficient Reverse k Approximate Nearest Neighbor Search over High-Dimensional Vectors (ICDE 2024)
+- Efficient Reverse $k$ Approximate Nearest Neighbor Search over High-Dimensional Vectors (ICDE 2024)
+- Subspace Collision: An Efficient and Accurate Framework for High-dimensional Approximate Nearest Neighbor Search (SIGMOD 2025)
 
 ### Optimization
 
@@ -30,6 +32,7 @@
 - FINGER: Fast Inference for Graph-based Approximate Nearest Neighbor Search (WWW 2023)
 - AdANNS: A Framework for Adaptive Semantic Search (NeurIPS 2023)
 - Knowledge Distillation for High Dimensional Search Index (NeurIPS 2023)
+- SymphonyQG: towards Symphonious Integration of Quantization and Graph for Approximate Nearest Neighbor Search (SIGMOD 2025)
 
 ### Analysis
 
@@ -72,6 +75,8 @@
 - [SeRF: Segment Graph for Range-Filtering Approximate Nearest Neighbor Search (SIGMOD 2024)](https://dl.acm.org/doi/pdf/10.1145/3639324), [code](https://github.com/rutgers-db/SeRF.git)
 - Efficient Data Access Paths for Mixed Vector-Relational Search
 - [Approximate Nearest Neighbor Search with Window Filters](https://arxiv.org/abs/2402.00943)
+- Navigating Labels and Vectors: A Unified Approach to Filtered Approximate Nearest Neighbor Search (SIGMOD 2025)
+- 
 
 ## Others
 

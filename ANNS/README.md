@@ -37,7 +37,6 @@
 ### Analysis
 
 - Approximate Nearest Neighbor Search on High Dimensional Data — Experiments, Analyses, and Improvement (TKDE), [code](https://github.com/DBAIWangGroup/nns_benchmark.git)
-
 - Worst-case Performance of Popular Approximate Nearest Neighbor Search Implementations: Guarantees and Limitations (NeurIPS 2023)
 
 ### Billion-scale ANNS

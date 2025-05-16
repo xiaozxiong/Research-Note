@@ -16,3 +16,13 @@
 - RTCUDB: Building Databases with RT Processors
 
 - RTOD: Efficient Outlier Detection With Ray Tracing Cores
+
+- LibRTS: A Spatial Indexing Library by Ray Tracing (PPoPP 2025)
+
+- RT-BarnesHut: Accelerating Barnes–Hut Using Ray-Tracing Hardware (PPoPP 2025)
+
+- RTSpMSpM: Harnessing Ray Tracing for Efficient Sparse Matrix Computations (ISCA 2025)
+
+- Heliostat: Harnessing Ray Tracing Accelerators for Page Table Walks (ISCA 2025)
+
+- CoopRT: Accelerating BVH Traversal for Ray Tracing via Cooperative Threads (ISCA 2025)

@@ -103,7 +103,9 @@ All embedding data (base, query, learning) is stored in `.fbin` format. And all 
 
 ### fvecs & ivecs
 
-The vector files are stored in `.fvecs` or `.bvecs` format, and the ground truth file is `.ivecs` format. The only difference between `.bvecs`, `.fvecs` and `.ivecs` files is the base type for the vector components, which is **unsigned char**, **float** or **int**, respectively. 
+The vector files are stored in `.fvecs` or `.bvecs` format, and the ground truth file is `.ivecs` format. The only difference between `.bvecs`, `.fvecs` and `.ivecs` files is the base type for the vector components, which is **unsigned char**, **float** or **int**, respectively. Each vector takes `4+d*4` bytes for `.fvecs` and `.ivecs` formats, and `4+d` bytes for `.bvecs` formats, where $d$ is the dimensionality of the vector.
+
+By default, **sift** dataset uses this type to store data.
 
 ```python
 # Each vector takes (4+d*4) bytes for .fvecs and .ivecs formats, d is dimension.
@@ -113,13 +115,13 @@ The vector files are stored in `.fvecs` or `.bvecs` format, and the ground truth
 
 ### Billion-scale
 
-|                           Dataset                            | DataType | Dimensions | Base Data | Query Data | Top-K |   Distance    |
-| :----------------------------------------------------------: | :------: | :--------: | :-------: | :--------: | :---: | :-----------: |
-|           [SIFT1B](http://corpus-texmex.irisa.fr/)           |  uint8   |    128     |    1B     |    10K     |  100  |      L2       |
-| [DEEP1B](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) | float32  |     96     |    1B     |    10K     |  100  |      L2       |
-| [Text-to-Image-1B](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) | float32  |    200     |    1B     |    100K    |       | inner-product |
-| [Microsoft Turing-ANNS](https://learning2hash.github.io/publications/microsoftturinganns1B/) | float32  |    100     |    1B     |    100K    |       |      L2       |
-| [Microsoft SPACEV-1B](https://github.com/microsoft/SPTAG/tree/main/datasets/SPACEV1B) |   int8   |    100     |    1B     |   29.3K    |  100  |      L2       |
+|                           Dataset                            | DataType | Dimensions | Base Data | Query Data | Top-K | Distance |
+| :----------------------------------------------------------: | :------: | :--------: | :-------: | :--------: | :---: | :------: |
+|           [SIFT1B](http://corpus-texmex.irisa.fr/)           |  uint8   |    128     |    1B     |    10K     |  100  |    L2    |
+| [DEEP1B](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) | float32  |     96     |    1B     |    10K     |  100  |    L2    |
+| [Text-to-Image-1B](https://research.yandex.com/blog/benchmarks-for-billion-scale-similarity-search) | float32  |    200     |    1B     |    100K    |       |    IP    |
+| [Microsoft Turing-ANNS](https://learning2hash.github.io/publications/microsoftturinganns1B/) | float32  |    100     |    1B     |    100K    |       |    L2    |
+| [Microsoft SPACEV-1B](https://github.com/microsoft/SPTAG/tree/main/datasets/SPACEV1B) |   int8   |    100     |    1B     |   29.3K    |  100  |    L2    |
 
 The ground truth for deep1M, deep10M, and deep100M datasets can be download from [here](https://github.com/matsui528/deep1b_gt.git).
 

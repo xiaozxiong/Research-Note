@@ -21,8 +21,10 @@
 
 - RT-BarnesHut: Accelerating Barnes–Hut Using Ray-Tracing Hardware (PPoPP 2025)
 
-- RTSpMSpM: Harnessing Ray Tracing for Efficient Sparse Matrix Computations (ISCA 2025)
+- RTSpMSpM: Harnessing Ray Tracing for Efficient Sparse Matrix Computations (ISCA 2025), [code](https://github.com/escalab/RTSpMSpM)
 
 - Heliostat: Harnessing Ray Tracing Accelerators for Page Table Walks (ISCA 2025)
 
 - CoopRT: Accelerating BVH Traversal for Ray Tracing via Cooperative Threads (ISCA 2025)
+
+- A Case Study for Ray Tracing Cores: Performance Insights with Breadth-First Search and Triangle Counting in Graphs (SIGMETRICS 2025), [code](https://github.com/xiaozxiong/RT-Graph)

@@ -56,6 +56,7 @@
 - Efficient Exact K-Nearest Neighbor Graph Construction for Billion-Scale Datasets using GPUs with Tensor Cores (ICS 2022)
 - CAGRA: Highly Parallel Graph Construction and Approximate Nearest Neighbor Search for GPUs (ICDE 2024), [code](https://github.com/rapidsai/raft.git)
 - GGNN: Graph-based GPU Nearest Neighbor Search, [code](https://github.com/cgtuebingen/ggnn.git)
+- PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search (ATC 25)
 
 ### ANNS with Attribute Constraint
 
